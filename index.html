@@ -2,15 +2,16 @@
 
 
 
-  
+
 
 
 <html class="theme-next pisces use-motion" lang="zh-Hans">
+
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#222">
 
 
 
@@ -20,8 +21,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -38,39 +39,37 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
+    <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
+    <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+    <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.png?v=5.1.4" color="#222">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
 
 
+    <link rel="mask-icon" href="/images/logo.png?v=5.1.4" color="#222">
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
 
 
+    <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,50 +78,75 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="猫躺在键盘上">
-<meta property="og:url" content="http://czqn8.github.io/index.html">
-<meta property="og:site_name" content="猫躺在键盘上">
-<meta property="og:locale" content="zh-Hans">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="猫躺在键盘上">
 
 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="猫躺在键盘上">
+    <meta property="og:url" content="http://czqn8.github.io/index.html">
+    <meta property="og:site_name" content="猫躺在键盘上">
+    <meta property="og:locale" content="zh-Hans">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="猫躺在键盘上">
 
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
 
 
+    <script type="text/javascript" id="hexo.configurations">
+        var NexT = window.NexT || {};
+        var CONFIG = {
+            root: '/',
+            scheme: 'Pisces',
+            version: '5.1.4',
+            sidebar: {
+                "position": "left",
+                "display": "post",
+                "offset": 12,
+                "b2t": false,
+                "scrollpercent": false,
+                "onmobile": false
+            },
+            fancybox: true,
+            tabs: true,
+            motion: {
+                "enable": true,
+                "async": false,
+                "transition": {
+                    "post_block": "fadeIn",
+                    "post_header": "slideDownIn",
+                    "post_body": "slideDownIn",
+                    "coll_header": "slideLeftIn",
+                    "sidebar": "slideUpIn"
+                }
+            },
+            duoshuo: {
+                userId: '0',
+                author: '博主'
+            },
+            algolia: {
+                applicationID: '',
+                apiKey: '',
+                indexName: '',
+                hits: {
+                    "per_page": 10
+                },
+                labels: {
+                    "input_placeholder": "Search for Posts",
+                    "hits_empty": "We didn't find any results for the search: ${query}",
+                    "hits_stats": "${hits} results found in ${time} ms"
+                }
+            }
+        };
+    </script>
+
+
+
+    <link rel="canonical" href="http://czqn8.github.io/" />
+
+
+
+
+
+    <title>猫躺在键盘上</title>
 
-  <link rel="canonical" href="http://czqn8.github.io/"/>
-
-
-
-
-
-  <title>猫躺在键盘上</title>
-  
 
 
 
@@ -135,587 +159,582 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  
-  
-    
-  
 
-  <div class="container sidebar-position-left 
+
+
+
+
+    <div class="container sidebar-position-left 
   page-home">
-    <div class="headband"></div>
+        <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+        <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+            <div class="header-inner">
+                <div class="site-brand-wrapper">
+                    <div class="site-meta ">
 
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">猫躺在键盘上</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
 
-  <div class="site-nav-toggle">
-    <button>
+                        <div class="custom-logo-site-title">
+                            <a href="/" class="brand" rel="start">
+                                <span class="logo-line-before"><i></i></span>
+                                <span class="site-title">猫躺在键盘上</span>
+                                <span class="logo-line-after"><i></i></span>
+                            </a>
+                        </div>
+
+                        <p class="site-subtitle"></p>
+
+                    </div>
+
+                    <div class="site-nav-toggle">
+                        <button>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
     </button>
-  </div>
-</div>
+                    </div>
+                </div>
 
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            全部归档
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
+                <nav class="site-nav">
 
 
 
- </div>
-    </header>
+                    <ul id="menu" class="menu">
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
 
-  
+                        <li class="menu-item menu-item-home">
+                            <a href="/" rel="section">
 
-  
-  
-  
+                                <i class="menu-item-icon fa fa-fw fa-home"></i> <br /> 首页
+                            </a>
+                        </li>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://czqn8.github.io/2016/12/12/Vue知识点整理/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <li class="menu-item menu-item-about">
+                            <a href="/about/" rel="section">
+
+                                <i class="menu-item-icon fa fa-fw fa-user"></i> <br /> 关于
+                            </a>
+                        </li>
+
+
+                        <li class="menu-item menu-item-tags">
+                            <a href="/tags/" rel="section">
+
+                                <i class="menu-item-icon fa fa-fw fa-tags"></i> <br /> 标签
+                            </a>
+                        </li>
+
+
+                        <li class="menu-item menu-item-categories">
+                            <a href="/categories/" rel="section">
+
+                                <i class="menu-item-icon fa fa-fw fa-th"></i> <br /> 分类
+                            </a>
+                        </li>
+
+
+                        <li class="menu-item menu-item-archives">
+                            <a href="/archives/" rel="section">
+
+                                <i class="menu-item-icon fa fa-fw fa-archive"></i> <br /> 全部归档
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+
+
+
+                </nav>
+
+
+
+            </div>
+        </header>
+
+        <main id="main" class="main">
+            <div class="main-inner">
+                <div class="content-wrap">
+                    <div id="content" class="content">
+
+                        <section id="posts" class="posts-expand">
+
+
+
+
+
+
+
+
+
+                            <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+
+
+
+                                <div class="post-block">
+                                    <link itemprop="mainEntityOfPage" href="http://czqn8.github.io/2016/12/12/Vue知识点整理/">
+
+                                    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Alan Chen">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/default_avatar.jpg">
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                                    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="猫躺在键盘上">
     </span>
 
-    
-      <header class="post-header">
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/12/12/Vue知识点整理/" itemprop="url">Vue知识点整理</a></h1>
-        
+                                    <header class="post-header">
 
-        <div class="post-meta">
-          <span class="post-time">
+
+
+                                        <h1 class="post-title" itemprop="name headline">
+
+                                            <a class="post-title-link" href="/2016/12/12/Vue知识点整理/" itemprop="url">Vue知识点整理</a></h1>
+
+
+                                        <div class="post-meta">
+                                            <span class="post-time">
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-12-12T20:23:09+08:00">
+
+                                            <span class="post-meta-item-text">发表于</span>
+
+                                            <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-12-12T20:23:09+08:00">
                 2016-12-12
               </time>
-            
 
-            
 
-            
-          </span>
 
-          
-            <span class="post-category" >
+
+
+                                            </span>
+
+
+                                            <span class="post-category">
             
               <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
+
+                                            <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+
+                                            <span class="post-meta-item-text">分类于</span>
+
+
+                                            <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Vue/" itemprop="url" rel="index">
                     <span itemprop="name">Vue</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="对于MVVM的理解？"><a href="#对于MVVM的理解？" class="headerlink" title="对于MVVM的理解？"></a>对于MVVM的理解？</h1><p>MVVM 是 Model-View-ViewModel 的缩写。<br>Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。<br>View 代表UI 组件，它负责将数据模型转化成UI 展现出来。<br>ViewModel 监听模型数据的改变和控制视图行为、处理用户交互，简单理解就是一个同步View 和 Model的对象，连接Model和View。<br>在MVVM架构下，View 和 Model 之间并没有直接的联系，而是通过ViewModel进行交互。<br>Model 和 ViewModel 之间的交互是双向的， 因此View 数据的变化会同步到Model中，而Model 数据的变化也会立即反应到View 上。<br>ViewModel 通过双向数据绑定把 View 层和 Model 层连接了起来，而View 和 Model 之间的同步工作完全是自动的，无需人为干涉。<br>因此开发者只需关注业务逻辑，不需要手动操作DOM, 不需要关注数据状态的同步问题，复杂的数据状态维护完全由 MVVM 来统一管理。</p>
-<h1 id="Vue的生命周期"><a href="#Vue的生命周期" class="headerlink" title="Vue的生命周期"></a>Vue的生命周期</h1><h2 id="1-什么是vue生命周期？"><a href="#1-什么是vue生命周期？" class="headerlink" title="1.什么是vue生命周期？"></a>1.什么是vue生命周期？</h2><p>Vue 实例从创建到销毁的过程，就是生命周期。从开始创建、初始化数据、编译模板、挂载Dom→渲染、更新→渲染、销毁等一系列过程，称之为 Vue 的生命周期。</p>
-<h2 id="2-vue生命周期的作用是什么？"><a href="#2-vue生命周期的作用是什么？" class="headerlink" title="2.vue生命周期的作用是什么？"></a>2.vue生命周期的作用是什么？</h2><p>答：它的生命周期中有多个事件钩子，让我们在控制整个Vue实例的过程时更容易形成好的逻辑。</p>
-<h2 id="3-vue生命周期总共有几个阶段？"><a href="#3-vue生命周期总共有几个阶段？" class="headerlink" title="3.vue生命周期总共有几个阶段？"></a>3.vue生命周期总共有几个阶段？</h2><p>答：它可以总共分为8个阶段：创建前/后, 载入前/后,更新前/后,销毁前/销毁后。</p>
-<h2 id="4-第一次页面加载会触发哪几个钩子？"><a href="#4-第一次页面加载会触发哪几个钩子？" class="headerlink" title="4.第一次页面加载会触发哪几个钩子？"></a>4.第一次页面加载会触发哪几个钩子？</h2><p>答：会触发 下面这几个beforeCreate, created, beforeMount, mounted 。</p>
-<h2 id="5-DOM-渲染在-哪个周期中就已经完成？"><a href="#5-DOM-渲染在-哪个周期中就已经完成？" class="headerlink" title="5.DOM 渲染在 哪个周期中就已经完成？"></a>5.DOM 渲染在 哪个周期中就已经完成？</h2><p>答：DOM 渲染在 mounted 中就已经完成了。</p>
-<h1 id="Vue实现数据双向绑定的原理：Object-defineProperty"><a href="#Vue实现数据双向绑定的原理：Object-defineProperty" class="headerlink" title="Vue实现数据双向绑定的原理：Object.defineProperty()"></a>Vue实现数据双向绑定的原理：Object.defineProperty()</h1><p>vue实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式的方式，通过Object.defineProperty()来劫持各个属性的setter，getter，在数据变动时发布消息给订阅者，触发相应监听回调。当把一个普通 Javascript 对象传给 Vue 实例来作为它的 data 选项时，Vue 将遍历它的属性，用 Object.defineProperty 将它们转为 getter/setter。用户看不到 getter/setter，但是在内部它们让 Vue 追踪依赖，在属性被访问和修改时通知变化。<br>vue的数据双向绑定 将MVVM作为数据绑定的入口，整合Observer，Compile和Watcher三者，通过Observer来监听自己的model的数据变化，通过Compile来解析编译模板指令，最终利用watcher搭起observer和Compile之间的通信桥梁，达到数据变化 —&gt;视图更新；视图交互变化（input）—&gt;数据model变更双向绑定效果。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;demo&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">        &lt;input type=&quot;text&quot;id=&quot;txt&quot;&gt;</span><br><span class="line">        &lt;p id=&quot;show&quot;&gt;&lt;/p&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;scripttype=&quot;text/javascript&quot;&gt;</span><br><span class="line">    var obj = &#123;&#125;</span><br><span class="line">    Object.defineProperty(obj, &apos;txt&apos;, &#123;</span><br><span class="line">        get: function () &#123;</span><br><span class="line">            return obj</span><br><span class="line">        &#125;,</span><br><span class="line">        set: function (newValue) &#123;</span><br><span class="line">            document.getElementById(&apos;txt&apos;).value = newValue</span><br><span class="line">            document.getElementById(&apos;show&apos;).innerHTML = newValue</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    document.addEventListener(&apos;keyup&apos;, function (e) &#123;</span><br><span class="line">        obj.txt = e.target.value</span><br><span class="line">    &#125;)</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></p>
-<h1 id="Vue组件间的参数传递"><a href="#Vue组件间的参数传递" class="headerlink" title="Vue组件间的参数传递"></a>Vue组件间的参数传递</h1><p>1.父组件与子组件传值<br>父组件传给子组件：子组件通过props方法接受数据;<br>子组件传给父组件：$emit方法传递参数<br>2.非父子组件间的数据传递，兄弟组件传值<br>eventBus，就是创建一个事件中心，相当于中转站，可以用它来传递事件和接收事件。项目比较小时，用这个比较合适。（也可以推荐直接用Vuex，具体来说看需求咯。）</p>
-<h1 id="对keep-alive-的了解？"><a href="#对keep-alive-的了解？" class="headerlink" title="对keep-alive 的了解？"></a>对keep-alive 的了解？</h1><p>keep-alive是 Vue 内置的一个组件，可以使被包含的组件保留状态，或避免重新渲染。<br>在vue 2.1.0 版本之后，keep-alive新加入了两个属性: include(包含的组件缓存) 与 exclude(排除的组件不缓存，优先级大于include) 。</p>
-<p>使用方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;keep-alive include=&apos;include_components&apos;exclude=&apos;exclude_components&apos;&gt;</span><br><span class="line">    &lt;component&gt;</span><br><span class="line">    &lt;!-- 该组件是否缓存取决于include和exclude属性 --&gt;</span><br><span class="line">    &lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure></p>
-<p>参数解释<br>include - 字符串或正则表达式，只有名称匹配的组件会被缓存<br>exclude - 字符串或正则表达式，任何名称匹配的组件都不会被缓存<br>include 和 exclude 的属性允许组件有条件地缓存。二者都可以用“，”分隔字符串、正则表达式、数组。当使用正则或者是数组时，要记得使用v-bind</p>
-<p>实例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 逗号分隔字符串，只有组件a与b被缓存。 --&gt;</span><br><span class="line">&lt;keep-alive include=&quot;a,b&quot;&gt;</span><br><span class="line">    &lt;component&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 正则表达式 (需要使用 v-bind，符合匹配规则的都会被缓存) --&gt;</span><br><span class="line">&lt;keep-alive:include=&quot;/a|b/&quot;&gt;</span><br><span class="line">    &lt;component&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Array (需要使用 v-bind，被包含的都会被缓存) --&gt;</span><br><span class="line">&lt;keep-alive:include=&quot;[&apos;a&apos;, &apos;b&apos;]&quot;&gt;</span><br><span class="line">    &lt;component&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
+                                            </a>
+                                            </span>
 
 
-    
-      
 
-  
 
-  
-  
-  
+                                            </span>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://czqn8.github.io/2016/08/08/React技术栈全家桶/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        </div>
+                                    </header>
+
+
+
+
+
+                                    <div class="post-body" itemprop="articleBody">
+
+
+
+
+
+
+
+                                        <h1 id="对于MVVM的理解？">
+                                            <a href="#对于MVVM的理解？" class="headerlink" title="对于MVVM的理解？"></a>对于MVVM的理解？</h1>
+                                        <p>MVVM 是 Model-View-ViewModel 的缩写。<br>Model代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑。<br>View 代表UI 组件，它负责将数据模型转化成UI 展现出来。<br>ViewModel 监听模型数据的改变和控制视图行为、处理用户交互，简单理解就是一个同步View 和 Model的对象，连接Model和View。<br>在MVVM架构下，View 和 Model
+                                            之间并没有直接的联系，而是通过ViewModel进行交互。<br>Model 和 ViewModel 之间的交互是双向的， 因此View 数据的变化会同步到Model中，而Model 数据的变化也会立即反应到View 上。<br>ViewModel 通过双向数据绑定把 View 层和 Model 层连接了起来，而View 和 Model 之间的同步工作完全是自动的，无需人为干涉。<br>因此开发者只需关注业务逻辑，不需要手动操作DOM,
+                                            不需要关注数据状态的同步问题，复杂的数据状态维护完全由 MVVM 来统一管理。</p>
+                                        <h1 id="Vue的生命周期">
+                                            <a href="#Vue的生命周期" class="headerlink" title="Vue的生命周期"></a>Vue的生命周期</h1>
+                                        <h2 id="1-什么是vue生命周期？">
+                                            <a href="#1-什么是vue生命周期？" class="headerlink" title="1.什么是vue生命周期？"></a>1.什么是vue生命周期？</h2>
+                                        <p>Vue 实例从创建到销毁的过程，就是生命周期。从开始创建、初始化数据、编译模板、挂载Dom→渲染、更新→渲染、销毁等一系列过程，称之为 Vue 的生命周期。</p>
+                                        <h2 id="2-vue生命周期的作用是什么？">
+                                            <a href="#2-vue生命周期的作用是什么？" class="headerlink" title="2.vue生命周期的作用是什么？"></a>2.vue生命周期的作用是什么？</h2>
+                                        <p>答：它的生命周期中有多个事件钩子，让我们在控制整个Vue实例的过程时更容易形成好的逻辑。</p>
+                                        <h2 id="3-vue生命周期总共有几个阶段？">
+                                            <a href="#3-vue生命周期总共有几个阶段？" class="headerlink" title="3.vue生命周期总共有几个阶段？"></a>3.vue生命周期总共有几个阶段？</h2>
+                                        <p>答：它可以总共分为8个阶段：创建前/后, 载入前/后,更新前/后,销毁前/销毁后。</p>
+                                        <h2 id="4-第一次页面加载会触发哪几个钩子？">
+                                            <a href="#4-第一次页面加载会触发哪几个钩子？" class="headerlink" title="4.第一次页面加载会触发哪几个钩子？"></a>4.第一次页面加载会触发哪几个钩子？</h2>
+                                        <p>答：会触发 下面这几个beforeCreate, created, beforeMount, mounted 。</p>
+                                        <h2 id="5-DOM-渲染在-哪个周期中就已经完成？">
+                                            <a href="#5-DOM-渲染在-哪个周期中就已经完成？" class="headerlink" title="5.DOM 渲染在 哪个周期中就已经完成？"></a>5.DOM 渲染在 哪个周期中就已经完成？</h2>
+                                        <p>答：DOM 渲染在 mounted 中就已经完成了。</p>
+                                        <h1 id="Vue实现数据双向绑定的原理：Object-defineProperty">
+                                            <a href="#Vue实现数据双向绑定的原理：Object-defineProperty" class="headerlink" title="Vue实现数据双向绑定的原理：Object.defineProperty()"></a>Vue实现数据双向绑定的原理：Object.defineProperty()</h1>
+                                        <p>vue实现数据双向绑定主要是：采用数据劫持结合发布者-订阅者模式的方式，通过Object.defineProperty()来劫持各个属性的setter，getter，在数据变动时发布消息给订阅者，触发相应监听回调。当把一个普通 Javascript 对象传给 Vue 实例来作为它的 data 选项时，Vue 将遍历它的属性，用 Object.defineProperty 将它们转为 getter/setter。用户看不到
+                                            getter/setter，但是在内部它们让 Vue 追踪依赖，在属性被访问和修改时通知变化。<br>vue的数据双向绑定 将MVVM作为数据绑定的入口，整合Observer，Compile和Watcher三者，通过Observer来监听自己的model的数据变化，通过Compile来解析编译模板指令，最终利用watcher搭起observer和Compile之间的通信桥梁，达到数据变化 —&gt;视图更新；视图交互变化（input）—&gt;数据model变更双向绑定效果。<br>
+                                            <figure
+                                                class="highlight plain">
+                                                <table>
+                                                    <tr>
+                                                        <td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td>
+                                                        <td
+                                                            class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;demo&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div id=&quot;app&quot;&gt;</span><br><span class="line">        &lt;input type=&quot;text&quot;id=&quot;txt&quot;&gt;</span><br><span class="line">        &lt;p id=&quot;show&quot;&gt;&lt;/p&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;scripttype=&quot;text/javascript&quot;&gt;</span><br><span class="line">    var obj = &#123;&#125;</span><br><span class="line">    Object.defineProperty(obj, &apos;txt&apos;, &#123;</span><br><span class="line">        get: function () &#123;</span><br><span class="line">            return obj</span><br><span class="line">        &#125;,</span><br><span class="line">        set: function (newValue) &#123;</span><br><span class="line">            document.getElementById(&apos;txt&apos;).value = newValue</span><br><span class="line">            document.getElementById(&apos;show&apos;).innerHTML = newValue</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    document.addEventListener(&apos;keyup&apos;, function (e) &#123;</span><br><span class="line">        obj.txt = e.target.value</span><br><span class="line">    &#125;)</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td>
+                                                    </tr>
+                                                </table>
+                                                </figure>
+                                        </p>
+                                        <h1 id="Vue组件间的参数传递">
+                                            <a href="#Vue组件间的参数传递" class="headerlink" title="Vue组件间的参数传递"></a>Vue组件间的参数传递</h1>
+                                        <p>1.父组件与子组件传值<br>父组件传给子组件：子组件通过props方法接受数据;<br>子组件传给父组件：$emit方法传递参数<br>2.非父子组件间的数据传递，兄弟组件传值<br>eventBus，就是创建一个事件中心，相当于中转站，可以用它来传递事件和接收事件。项目比较小时，用这个比较合适。（也可以推荐直接用Vuex，具体来说看需求咯。）</p>
+                                        <h1 id="对keep-alive-的了解？">
+                                            <a href="#对keep-alive-的了解？" class="headerlink" title="对keep-alive 的了解？"></a>对keep-alive 的了解？</h1>
+                                        <p>keep-alive是 Vue 内置的一个组件，可以使被包含的组件保留状态，或避免重新渲染。<br>在vue 2.1.0 版本之后，keep-alive新加入了两个属性: include(包含的组件缓存) 与 exclude(排除的组件不缓存，优先级大于include) 。</p>
+                                        <p>使用方法<br>
+                                            <figure class="highlight plain">
+                                                <table>
+                                                    <tr>
+                                                        <td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td>
+                                                        <td class="code"><pre><span class="line">&lt;keep-alive include=&apos;include_components&apos;exclude=&apos;exclude_components&apos;&gt;</span><br><span class="line">    &lt;component&gt;</span><br><span class="line">    &lt;!-- 该组件是否缓存取决于include和exclude属性 --&gt;</span><br><span class="line">    &lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br></pre></td>
+                                                    </tr>
+                                                </table>
+                                            </figure>
+                                        </p>
+                                        <p>参数解释<br>include - 字符串或正则表达式，只有名称匹配的组件会被缓存<br>exclude - 字符串或正则表达式，任何名称匹配的组件都不会被缓存<br>include 和 exclude 的属性允许组件有条件地缓存。二者都可以用“，”分隔字符串、正则表达式、数组。当使用正则或者是数组时，要记得使用v-bind</p>
+                                        <p>实例<br>
+                                            <figure class="highlight plain">
+                                                <table>
+                                                    <tr>
+                                                        <td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td>
+                                                        <td
+                                                            class="code"><pre><span class="line">&lt;!-- 逗号分隔字符串，只有组件a与b被缓存。 --&gt;</span><br><span class="line">&lt;keep-alive include=&quot;a,b&quot;&gt;</span><br><span class="line">    &lt;component&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 正则表达式 (需要使用 v-bind，符合匹配规则的都会被缓存) --&gt;</span><br><span class="line">&lt;keep-alive:include=&quot;/a|b/&quot;&gt;</span><br><span class="line">    &lt;component&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Array (需要使用 v-bind，被包含的都会被缓存) --&gt;</span><br><span class="line">&lt;keep-alive:include=&quot;[&apos;a&apos;, &apos;b&apos;]&quot;&gt;</span><br><span class="line">    &lt;component&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br></pre></td>
+                                                    </tr>
+                                                </table>
+                                            </figure>
+                                        </p>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                                    <footer class="post-footer">
+
+
+
+
+
+
+
+
+                                        <div class="post-eof"></div>
+
+                                    </footer>
+                                </div>
+
+
+
+                            </article>
+
+
+
+
+
+
+
+
+
+
+
+                            <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+
+
+
+                                <div class="post-block">
+                                    <link itemprop="mainEntityOfPage" href="http://czqn8.github.io/2016/08/08/React技术栈全家桶/">
+
+                                    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Alan Chen">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/default_avatar.jpg">
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                                    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="猫躺在键盘上">
     </span>
 
-    
-      <header class="post-header">
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/08/08/React技术栈全家桶/" itemprop="url">React技术栈全家桶</a></h1>
-        
+                                    <header class="post-header">
 
-        <div class="post-meta">
-          <span class="post-time">
+
+
+                                        <h1 class="post-title" itemprop="name headline">
+
+                                            <a class="post-title-link" href="/2016/08/08/React技术栈全家桶/" itemprop="url">React技术栈全家桶</a></h1>
+
+
+                                        <div class="post-meta">
+                                            <span class="post-time">
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-08T00:23:09+08:00">
+
+                                            <span class="post-meta-item-text">发表于</span>
+
+                                            <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-08T00:23:09+08:00">
                 2016-08-08
               </time>
-            
 
-            
 
-            
-          </span>
 
-          
-            <span class="post-category" >
+
+
+                                            </span>
+
+
+                                            <span class="post-category">
             
               <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
+
+                                            <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+
+                                            <span class="post-meta-item-text">分类于</span>
+
+
+                                            <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/React/" itemprop="url" rel="index">
                     <span itemprop="name">React</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>React 技术栈系列教程<br><a href="http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
+                                            </a>
+                                            </span>
 
 
-    
-  </section>
-
-  
 
 
-          </div>
-          
+                                            </span>
 
 
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/images/default_avatar.jpg"
-                alt="Alan Chen" />
-            
-              <p class="site-author-name" itemprop="name">Alan Chen</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
 
 
-        
-      </div>
-    </main>
 
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
+
+
+
+
+
+
+
+
+
+
+                                        </div>
+                                    </header>
+
+
+
+
+
+                                    <div class="post-body" itemprop="articleBody">
+
+
+
+
+
+
+
+                                        <p>React 技术栈系列教程<br><a href="http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html</a></p>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                                    <footer class="post-footer">
+
+
+
+
+
+
+
+
+                                        <div class="post-eof"></div>
+
+                                    </footer>
+                                </div>
+
+
+
+                            </article>
+
+
+
+                        </section>
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+                <div class="sidebar-toggle">
+                    <div class="sidebar-toggle-line-wrap">
+                        <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+                        <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+                        <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+                    </div>
+                </div>
+
+                <aside id="sidebar" class="sidebar">
+
+                    <div class="sidebar-inner">
+
+
+
+
+
+                        <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+                            <div class="site-overview">
+                                <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+
+                                    <img class="site-author-image" itemprop="image" src="/images/default_avatar.jpg" alt="Alan Chen" />
+
+                                    <p class="site-author-name" itemprop="name">Alan Chen</p>
+                                    <p class="site-description motion-element" itemprop="description"></p>
+                                </div>
+
+                                <nav class="site-state motion-element">
+
+
+                                    <div class="site-state-item site-state-posts">
+
+                                        <a href="/archives/">
+
+                                            <span class="site-state-item-count">2</span>
+                                            <span class="site-state-item-name">日志</span>
+                                        </a>
+                                    </div>
+
+
+
+
+
+                                    <div class="site-state-item site-state-categories">
+                                        <a href="/categories/index.html">
+                                            <span class="site-state-item-count">2</span>
+                                            <span class="site-state-item-name">分类</span>
+                                        </a>
+                                    </div>
+
+
+
+
+
+                                    <div class="site-state-item site-state-tags">
+                                        <a href="/tags/index.html">
+                                            <span class="site-state-item-count">2</span>
+                                            <span class="site-state-item-name">标签</span>
+                                        </a>
+                                    </div>
+
+
+                                </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </section>
+
+
+
+
+
+                    </div>
+                </aside>
+
+
+
+            </div>
+        </main>
+
+        <footer id="footer" class="footer">
+            <div class="footer-inner">
+                <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2019</span>
+                    <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Alan Chen</span>
-
-  
-</div>
+                    <span class="author" itemprop="copyrightHolder">Alan Chen</span>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+                </div>
 
 
-
-  <span class="post-meta-divider">|</span>
+                <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+                <span class="post-meta-divider">|</span>
 
 
 
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-  
+                <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -727,91 +746,114 @@
 
 
 
-  
-  
+
+
+            </div>
+        </footer>
+
+
+        <div class="back-to-top">
+            <i class="fa fa-arrow-up"></i>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <script type="text/javascript">
+        if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+            window.Promise = null;
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
 
-  
-  
+
+
+
     <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
 
-  
-  
+
+
+
     <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
 
-  
-  
+
+
+
     <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
 
-  
-  
+
+
+
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
 
-  
-  
+
+
+
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
 
-  
-  
+
+
+
     <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
 
 
 
 
 
-  
+
+    <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+    <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
 
 
 
 
 
-  
+
+
+    <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+    <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -824,26 +866,51 @@
 
 
 
-  
 
 
 
 
 
-  
 
-  
 
-  
 
-  
-  
 
-  
 
-  
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
+
 </html>
